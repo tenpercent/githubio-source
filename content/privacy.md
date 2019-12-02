@@ -1,7 +1,7 @@
 ---
 title: Privacy Policy
-date: "2018-06-28T00:00:00+01:00"
-draft: true
+date: "2019-12-01T00:00:00+05:00"
+draft: false
 share: false
 commentable: false
 editable: false
@@ -11,5 +11,4 @@ header:
   caption: ""
   image: ""
 ---
-
-Add your privacy policy here and set `draft: false` to publish it. Otherwise, delete this file if you don't need it.
+This site collects anonymized statistics (including location, language, time spent on a page, etc.) about its users with Google Analytics. The gathered statistics will not be shared by the site owner with any third parties.
