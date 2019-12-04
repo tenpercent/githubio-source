@@ -28,6 +28,17 @@ You can choose from one of the following four methods to install:
 
 Then [personalize your new site](https://sourcethemes.com/academic/docs/get-started/).
 
+## Use
+
+0. Install Hugo and Academic
+1. Customize content (clone this repo and take a look at ./themes/academic/exampleSite/ folder for understanding of the site structure)
+2. Execute `hugo server` to run the site on localhost and evaluate the customization.
+3. Assuming you are using Github Pages for hosting, the next step is to create the repository named `YOUR_HANDLE.github.io`; skip this step if the repository already exists.
+4. Delete the generated site by `rm -r public`.
+5. Add a submodule for the generated site by `git submodule add -b master -f git@github.com:YOUR_HANDLE/YOUR_HANDLE.github.io.git public`.
+6. Regenerate the site by `hugo`.
+7. Publish the site by `cd public; git add .; git commit -m "customize your commit message reflecting changes"; git push --set-upstream origin master`
+
 ## Ecosystem
 
 * **[Academic Admin](https://github.com/sourcethemes/academic-admin):** An admin tool to import publications from BibTeX or import assets for an offline site
